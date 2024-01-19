@@ -1,0 +1,8 @@
+[MAIN]
+
+# Add custom pylint plugins
+load-plugins=pylint_plugins.duplicate_code
+
+[MESSAGES CONTROL]
+
+disable=disallowed-name,missing-module-docstring,missing-class-docstring,missing-function-docstring
